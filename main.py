@@ -29,7 +29,7 @@ def dog(s):
             self.color=color
             self.breed=breed
         def bark(self):
-            display(f'Bark! '*3, target='out')
+            display(f'Bark! '*5, target='out')
     n3=document.getElementById('name').value
     a3=document.getElementById('age').value
     c3=document.getElementById('color').value
@@ -39,5 +39,6 @@ def dog(s):
     dog3=Dog({n3}, {a3}, {c3}, {b3})
     dog4=Dog('Bella', 7, 'Cream', 'Chow chow')
     dog5=Dog('Kulet', 4, 'Black & White', 'Siberian husky')
-    display(f'The dog daycare consists of a: {dog1.breed}, {dog1.name}; {dog2.breed}, {dog2.name}; {dog3.breed}, {dog3.name}; {dog4.breed}, {dog4.name}; {dog5.breed}, {dog5.name};', target='out')
+    dog3.bark
+    display(f'The dog daycare consists of a: {dog1.breed}, {dog1.name}; {dog2.breed}, {dog2.name}; {dog3.breed}, {dog3.name}; {dog4.breed}, {dog4.name}; {dog5.breed}, {dog5.name}.', target='out')
 #GH_ICT10_PA2_4thQtr_Dolor
