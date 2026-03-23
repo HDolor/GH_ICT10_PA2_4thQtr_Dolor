@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Daycare</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+</head>
+<body class="p-3 bg-dark container">
+    <form class="bg-primary text-light fw-bold p-1 text-center">
+        <p class="fw-bold fs-2 text-light">Dog Daycare</p><hr>
+        <input type="text" id="name" placeholder="Enter your Dog's name" class="rounded"><br><br>
+        <input type="number" id="age" placeholder="Enter your Dog's age" class="rounded"><br><br>
+        <input type="text" id="color" placeholder="Enter your Dog's color" class="rounded"><br><br>
+        <input type="text" id="breed" placeholder="Enter your Dog's breed" class="rounded"><br><br>
+        <input type="button" class="btn btn-dark fw-bold" py-click="dog" value="Enter">
+    </form>
+    <div id="out" class="bg-primary text-light p-2 fw-bold"></div>
+    <script type="py" src="main.py"></script>
+</body>
+</html>
